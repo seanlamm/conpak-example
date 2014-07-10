@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <ul>
+        <li>@Html.ActionLink("About", "About", "Home")</li>
+        <li>@Html.ActionLink("Customer Home (bad)", "Index", "Home")</li>
+        <li>@Html.ActionLink("Customer Home", "Index", "Home", new{area="customer"}, new{style="color:pink", @class="red"})</li>
+    </ul>
+</div>

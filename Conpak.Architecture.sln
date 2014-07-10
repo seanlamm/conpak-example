@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conpak.Core", "Conpak.Core\Conpak.Core.csproj", "{6DD9C170-CE5F-43A0-9F3B-57FC71364FC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conpak.Web", "Conpak.Web\Conpak.Web.csproj", "{DBDB571F-288B-4442-96A1-32F3E14A3E9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A8AE3DC2-BB3F-408F-A7A3-6B2B192D1AC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conpak.Core.Tests", "Conpak.Core.Tests\Conpak.Core.Tests.csproj", "{D78E4D8D-E9F2-4D7F-9924-FCEB45F2E138}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conpak.Web.Tests", "Conpak.Web.Tests\Conpak.Web.Tests.csproj", "{9EE4B230-23EE-417B-B451-AEA81572D64A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conpak.Sam", "Conpak.Sam\Conpak.Sam.csproj", "{5AE63E1E-D7F5-41E5-8761-1CEFBE36EA95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DD9C170-CE5F-43A0-9F3B-57FC71364FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD9C170-CE5F-43A0-9F3B-57FC71364FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD9C170-CE5F-43A0-9F3B-57FC71364FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD9C170-CE5F-43A0-9F3B-57FC71364FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBDB571F-288B-4442-96A1-32F3E14A3E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBDB571F-288B-4442-96A1-32F3E14A3E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBDB571F-288B-4442-96A1-32F3E14A3E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBDB571F-288B-4442-96A1-32F3E14A3E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D78E4D8D-E9F2-4D7F-9924-FCEB45F2E138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D78E4D8D-E9F2-4D7F-9924-FCEB45F2E138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D78E4D8D-E9F2-4D7F-9924-FCEB45F2E138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D78E4D8D-E9F2-4D7F-9924-FCEB45F2E138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE4B230-23EE-417B-B451-AEA81572D64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE4B230-23EE-417B-B451-AEA81572D64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE4B230-23EE-417B-B451-AEA81572D64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE4B230-23EE-417B-B451-AEA81572D64A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE63E1E-D7F5-41E5-8761-1CEFBE36EA95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE63E1E-D7F5-41E5-8761-1CEFBE36EA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE63E1E-D7F5-41E5-8761-1CEFBE36EA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE63E1E-D7F5-41E5-8761-1CEFBE36EA95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D78E4D8D-E9F2-4D7F-9924-FCEB45F2E138} = {A8AE3DC2-BB3F-408F-A7A3-6B2B192D1AC9}
+		{9EE4B230-23EE-417B-B451-AEA81572D64A} = {A8AE3DC2-BB3F-408F-A7A3-6B2B192D1AC9}
+	EndGlobalSection
+EndGlobal
